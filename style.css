@@ -319,28 +319,6 @@ nav ul li a:hover {
   width: 100%;
 }
 
-.gallery .slide .icon {
-  display: none;
-  position: absolute;
-  align-items: center;
-  justify-content: center;
-  top: 0;
-  left: 0;
-  background: rgba(37, 37, 37, 0.7);
-  height: 99%;
-  width: 100%;
-  z-index: 10;
-}
-
-.gallery .slide:hover .icon {
-  display: flex;
-}
-
-.gallery .slide:hover .icon img {
-  width: 100px;
-  height: 100px;
-}
-
 .swiper-pagination-bullet {
   background-color: var(--white);
 }
